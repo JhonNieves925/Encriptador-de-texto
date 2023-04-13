@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encriptador de texto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="funcion.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Encriptador de texto</h1>
+		<label for="texto">Texto:</label>
+		<textarea id="texto" name="texto"></textarea>
+		<br>
+		<button onclick="encriptarTexto()">Encriptar</button>
+		<button onclick="desencriptarTexto()">Desencriptar</button>
+		<button onclick="desencriptarTextoCopiado()">Copiar Texto</button>
+		<br>
+		<label for="resultado">Resultado:</label>
+		<textarea id="resultado" name="resultado" readonly></textarea>
+	</div>
+</body>
+</html>
